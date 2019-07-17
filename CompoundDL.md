@@ -32,6 +32,10 @@
 * [[Stahl+2019]](https://pubs.acs.org/doi/10.1021/acs.jcim.9b00325)
   * 深層強化学習による薬剤設計
   * Bidirectional LSTMを利用（SMILESベースか？調べる必要あり）
+* [[Sattarov+2019]](https://pubs.acs.org/doi/10.1021/acs.jcim.8b00751)
+  * SMILESベースのAutoencoder
+  * Bidirectional LSTMを利用
+  * Generative Topographic Mappingを使うことでLatent spaceを2次元に可視化、範囲をユーザーが指定できるようにしている？
 
 <!--
 テンプレート
