@@ -7,6 +7,9 @@
   * 予測対象：ADME-Toxデータ（受動膜透過、logD、動物実験データ）
   * 推しポイント：マルチタスク学習
   
+## Graph Convolution系
+* kCON [[Chen+2018]](https://pubs.acs.org/doi/10.1021/acs.jctc.8b00149)
+  * 予測対象：量子化学計算による原子単位に定義される値（雑）
   
 <!--
 テンプレート
