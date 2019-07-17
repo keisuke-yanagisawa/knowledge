@@ -42,6 +42,9 @@
 * [[Skalic+2019]](https://pubs.acs.org/doi/10.1021/acs.jcim.8b00706)
   * SMILESだけでなく立体構造を意識する深層学習分子設計手法
   * Autoencoderを用いてシード化合物のSMILESからShape representationを作成、そのShape representationから新しい化合物のSMILESを生成する
+* [[Awale+2019]](https://pubs.acs.org/doi/10.1021/acs.jcim.8b00902)
+  * 転移学習×Generative model？
+  * 詳細全然読んでいない
 
 ## Applicable domain / Reliability 等
 
