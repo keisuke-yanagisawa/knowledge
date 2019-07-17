@@ -26,10 +26,13 @@
   * タンパク質の結合ポケットの分類 
 * [[Torng&Altman2018]](https://academic.oup.com/bioinformatics/article/35/9/1503/5104336)
   * タンパク質機能部位予測
+* LigVoxel [[Skalic+2019]](https://academic.oup.com/bioinformatics/article/35/2/243/5050023)
+  * 結合ポケットのPharmacophoreのようなものを描画する
 
 ## タンパク質構造安定性
 
+* 3DCNN_MQA [[Derevyanko+2018]](https://academic.oup.com/bioinformatics/article/34/23/4046/5040325)
+
 ## その他のタンパク質立体構造関係
 
-* LigVoxel [[Skalic+2019]](https://academic.oup.com/bioinformatics/article/35/2/243/5050023)
 
