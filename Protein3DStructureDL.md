@@ -5,11 +5,10 @@
 ### 3DCNN
 * AtomNet [[Wallach+2015]](https://arxiv.org/abs/1510.02855) at arXiv
   * データセット：DUDE, ChEMBL-20 PMD (1uM以下の阻害剤をまとめたもの)
-* [[Ragoza+2017]](https://pubs.acs.org/doi/abs/10.1021%2Facs.jcim.6b00740)
+* gnina [[Ragoza+2017]](https://pubs.acs.org/doi/abs/10.1021%2Facs.jcim.6b00740) [[Hochuli+2018]](https://www.sciencedirect.com/science/article/pii/S1093326318301670) [[Sunseri+2019]](https://link.springer.com/article/10.1007/s10822-018-0133-y)
+  * https://github.com/gnina/gnina
 * KDEEP [[Jimenez+2018]](https://pubs.acs.org/doi/10.1021/acs.jcim.7b00650)
 * Pafnucy(?) [[Stepniewska-Dziubinska+2018]](https://academic.oup.com/bioinformatics/article/34/21/3666/4994792)
-* gnina [[Hochuli+2018]](https://www.sciencedirect.com/science/article/pii/S1093326318301670), [[Sunseri+2019]](https://link.springer.com/article/10.1007/s10822-018-0133-y)
-  * https://github.com/gnina/gnina
 
 ### それ以外
 * OnionNet [[Zheng+2019]](https://arxiv.org/abs/1906.02418) at arXiv
