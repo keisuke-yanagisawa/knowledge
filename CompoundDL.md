@@ -8,6 +8,9 @@
   * 特徴量：Dragon, MOE, RDKitで作られた様々な特徴量 (e.g. Physicochemical properties, structural information, fragment information)
   * 予測対象：ADME-Toxデータ（受動膜透過、logD、動物実験データ）
   * マルチタスク学習 ☑
+* DeepPharm [[Ye+2019]](https://doi.org/10.1021/acs.molpharmaceut.8b00816)
+  * まずQSARタスクでネットワークのPre-trainを行い、ADMETに関する複数の値のマルチタスク学習を行う。
+  * [ ] 要確認事項：化合物の特徴量は何を使っている？本文を見ないとわからない
   
 ### Graph Convolution系
 * kCON [[Chen+2018]](https://pubs.acs.org/doi/10.1021/acs.jctc.8b00149)
