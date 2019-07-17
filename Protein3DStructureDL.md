@@ -32,7 +32,10 @@
 ## タンパク質構造安定性
 
 * 3DCNN_MQA [[Derevyanko+2018]](https://academic.oup.com/bioinformatics/article/34/23/4046/5040325)
-
+  * タンパク質全体を帯域3DCNN
+* Ornate [[Pages+2019]](http://dx.doi.org/10.1093/bioinformatics/btz122)
+  * 残基単位で局所3DCNN
+  
 ## その他のタンパク質立体構造関係
 
 
