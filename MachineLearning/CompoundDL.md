@@ -20,6 +20,11 @@
   * 予測対象：Solubility, Bioavailabilityなど、薬剤化合物のADME特性
   * マルチタスク学習 ☑
 
+### DTNN (Deep Tensor Neural Network) 系
+なんか原子番号と原子の距離行列を入力とするらしい。QM系のDeep Learningで良く使われている模様。
+* [[Lu+2019]](https://pubs.acs.org/doi/10.1021/acs.jctc.9b00001)
+  * New York Univ. の Yingkai Zhang グループ
+  * これまでの原子単位のエネルギー計算はDFTベースの構造最適化を行った後にやっていたが、MMレベルの構造最適化を行った構造から精度よく原子単位のエネルギーを求められたよ、という論文。
 <!--
 テンプレート
 * [[NAME+YYYY]](ARTICLE ADDRESS)
