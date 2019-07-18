@@ -7,5 +7,6 @@
 * DeepSF [[Hou+2018]](https://academic.oup.com/bioinformatics/article/34/8/1295/4708302)
   * タンパク質配列からfold予測（分類問題）、1DCNN
 * SPOT-1D [[Hanson+2019]](https://doi.org/10.1093/bioinformatics/bty1006)
+  * SPIDER3と同じグループの手法
   * 予測されたコンタクトマップを使うことで二次構造予測、主鎖角度予測、ASA予測、近隣原子数予測の精度を向上
-  * LSTM-BRNNを利用
+  * LSTM-BRNNの手法とResNetの手法を組み合わせたらしい
