@@ -21,13 +21,22 @@
   * マルチタスク学習 ☑
 
 ### DTNN (Deep Tensor Neural Network) 系
-なんか原子番号と原子の距離行列を入力とするらしい。QM系のDeep Learningで良く使われている模様。
+原子番号と原子の距離行列を入力とするDeep learning。convolutionはしているっぽい。
 * [[Lu+2019]](https://pubs.acs.org/doi/10.1021/acs.jctc.9b00001)
   * New York Univ. の Yingkai Zhang グループ
+  * 特徴量：原子番号と原子の距離行列
   * これまでの原子単位のエネルギー計算はDFTベースの構造最適化を行った後にやっていたが、MMレベルの構造最適化を行った構造から精度よく原子単位のエネルギーを求められたよ、という論文。
+  
+* PhysNet [[Unke&Meuwly2019]](https://pubs.acs.org/doi/10.1021/acs.jctc.9b00181) at JCTC
+  * Univ. Basel の Markus Meuwly グループ
+  * 特徴量：原子番号と原子の距離行列。DTNNと何が違うのかはちゃんと理解していない。
+  * 予測対象：QM系の値（エネルギー、双極子モーメント、部分電荷）を予測する手法。
+  
+### その他（理解していないともいう）
 <!--
 テンプレート
-* [[NAME+YYYY]](ARTICLE ADDRESS)
+* [[NAME+YYYY]](ARTICLE ADDRESS) at JOURNAL NAME
+  * グループ
   * 特徴量：
   * 予測対象：
   * マルチタスク学習 ☑ or □ 
