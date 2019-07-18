@@ -49,7 +49,7 @@
 ## Applicable domain / Reliability 等
 
 * [[Cortes-Ciriano&Bender2019]](https://doi.org/10.1021/acs.jcim.9b00297)
-  * Dense DNN（たぶん）において、推論時に（学習時ではない）Dropoutを起こしたときにどの程度予測結果が変化するか、という評価を行うことで予測結果のReliabilityを評価
+  *  ECFP4を特徴量とするDense DNNにおいて、推論時に（学習時ではない）Dropoutを起こしたときにどの程度予測結果が変化するか、という評価を行うことで予測結果のReliabilityを評価
 
 <!--
 テンプレート
