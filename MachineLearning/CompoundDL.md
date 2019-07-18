@@ -11,6 +11,11 @@
 * DeepPharm [[Ye+2019]](https://doi.org/10.1021/acs.molpharmaceut.8b00816)
   * まずQSARタスクでネットワークのPre-trainを行い、ADMETに関する複数の値のマルチタスク学習を行う。
   * [ ] 要確認事項：化合物の特徴量は何を使っている？本文を見ないとわからない
+* [[Sosnin+2019]](https://pubs.acs.org/doi/10.1021/acs.jcim.8b00685)
+  * 特徴量：大量の2D/3D特徴量
+  * 予測対象：LD50などの毒性情報
+  * データセット：Registry of Toxic Effects of Chemical Substances (RTECS)
+  * マルチタスク学習 ☑
   
 ### Graph Convolution系
 * kCON [[Chen+2018]](https://pubs.acs.org/doi/10.1021/acs.jctc.8b00149)
