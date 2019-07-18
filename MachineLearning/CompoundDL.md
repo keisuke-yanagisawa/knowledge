@@ -36,7 +36,7 @@
 <!--
 テンプレート
 * [[NAME+YYYY]](ARTICLE ADDRESS) at JOURNAL NAME
-  * グループ
+  * グループ：
   * 特徴量：
   * 予測対象：
   * マルチタスク学習 ☑ or □ 
@@ -59,6 +59,9 @@
 * [[Awale+2019]](https://pubs.acs.org/doi/10.1021/acs.jcim.8b00902)
   * 転移学習×Generative model？
   * 詳細全然読んでいない
+* GuacaMol [[Brown+2019]](https://pubs.acs.org/doi/10.1021/acs.jcim.8b00839) at JCIM
+  * グループ：BenevolentAIというロンドンにある会社。
+  * コード：会社の割に[OpenSource](https://github.com/BenevolentAI/guacamol)されている。手法についてもコードを読まないとあんまりよくわからない？ 
 
 ## Applicable domain / Reliability 等
 
@@ -67,7 +70,7 @@
 
 <!--
 テンプレート
-* [[NAME+YYYY]](ARTICLE ADDRESS)
+* [[NAME+YYYY]](ARTICLE ADDRESS) at JOURNAL NAME
   * 特徴量：
   * 予測対象：
   * マルチタスク学習 ☑ or □ 
