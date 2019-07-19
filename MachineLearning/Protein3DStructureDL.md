@@ -6,15 +6,30 @@
 * AtomNet [[Wallach+2015]](https://arxiv.org/abs/1510.02855) at arXiv
   * データセット：DUDE, ChEMBL-20 PMD (1uM以下の阻害剤をまとめたもの)
 * gnina [[Ragoza+2017]](https://pubs.acs.org/doi/abs/10.1021%2Facs.jcim.6b00740) [[Hochuli+2018]](https://www.sciencedirect.com/science/article/pii/S1093326318301670) [[Sunseri+2019]](https://link.springer.com/article/10.1007/s10822-018-0133-y)
-  * https://github.com/gnina/gnina
+  * Univ. Pittsburgh の [David Ryan Koes](http://bits.csb.pitt.edu/) グループ
+    * smina を作ったグループ（人？）っぽい。だからsminaと似た名前なのかな。
+  * コードやウェブサーバなど：https://github.com/gnina/gnina
+  * データセット：CSAR, DUD-E
+  * 目的変数：回帰予測の結果を利用した阻害剤の結合ポーズ予測 (CSAR) と分類予測による阻害剤予測 (DUD-E) 
 * KDEEP [[Jimenez+2018]](https://pubs.acs.org/doi/10.1021/acs.jcim.7b00650)
   * Univ. Pompeu Fabra (Barcelona) の [Gianni De Fabritiis](http://www.compscience.org/) グループ
-  * [PlayMolecule](https://playmolecule.org/) にweb serverが存在、オープンソースではなさそう
+  * コードやウェブサーバなど：[PlayMolecule](https://playmolecule.org/) 、オープンソースではなさそう
   * データセット：CSAR, BindingMOAD, PDBbind
-  * 予測：結合親和性（IC50やKi、Kdの値）の回帰予測
+  * 目的変数：結合親和性（pIC50やpKi、pKdの値）の回帰予測
 * Pafnucy(?) [[Stepniewska-Dziubinska+2018]](https://academic.oup.com/bioinformatics/article/34/21/3666/4994792)
-  * オープンソース https://gitlab.com/cheminfIBB/pafnucy
   * Polish Academy of Science の [Pawel Siedlecki](https://cheminfibb.github.io/) グループ
+  * コードやウェブサーバなど：https://gitlab.com/cheminfIBB/pafnucy
+  * データセット：PDBbind (v.2016), CASF-2013
+  * 目的変数：結合親和性（pIC50やpKi、pKdの値）の回帰予測
+
+<!--
+* NAME [[AUTHOR YEAR]](ADDRESS) at JOURNAL NAME
+  * INSTITUTE NAME の PRINCIPAL INVESTIGATOR グループ
+  * コードやウェブサーバなど：存在すればアドレスを記述
+  * データセット：
+  * 目的変数：
+  * 推しポイント（あれば）
+-->
 
 ### それ以外
 * OnionNet [[Zheng+2019]](https://arxiv.org/abs/1906.02418) at arXiv
