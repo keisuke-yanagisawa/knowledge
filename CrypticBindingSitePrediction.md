@@ -21,7 +21,7 @@ Machine Learning ディレクトリとの情報の重複があるかも。
 ## Cosolvent MD手法（Hot Spot解析）
 省略（MixMD, SILCS, MDMixあたりとか）
 
-## 機械学習系手法
+## MD & 機械学習手法
   
 * MDpocket [[Schmidtke+2011]](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btr550) at Oxford Bioinformatics
 * CryptoSite [[Cimermancic+2016]](https://www.sciencedirect.com/science/article/pii/S0022283616000851) at JMB
