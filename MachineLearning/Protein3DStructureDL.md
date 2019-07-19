@@ -20,6 +20,7 @@
 
 ### 3DCNN
 * DeepSite [[Jimenez+2017]](https://academic.oup.com/bioinformatics/article/33/19/3036/3859178)
+  * https://playmolecule.org/deepsite/
   * タンパク質の結合ポケット部位予測
 * DeepDrug3D [[Pu+2019]](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006718)
   * タンパク質の結合ポケットの分類 
