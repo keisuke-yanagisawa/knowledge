@@ -24,8 +24,8 @@ Machine Learning ディレクトリとの情報の重複があるかも。
 
 ## MD & 機械学習手法
   
-* MDpocket [[Schmidtke+2011]](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btr550) at Oxford Bioinformatics
-* CryptoSite [[Cimermancic+2016]](https://www.sciencedirect.com/science/article/pii/S0022283616000851) at JMB
+* MDpocket [[Schmidtke+2011, Bioinformatics]](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btr550) 
+* CryptoSite [[Cimermancic+2016, JMB]](https://www.sciencedirect.com/science/article/pii/S0022283616000851)
   * UCSF の [Andrej Sali](https://salilab.org/) グループ
   * コードやウェブサーバなど：[コード](https://github.com/salilab/cryptosite/)/[ウェブサーバ](https://modbase.compbio.ucsf.edu/cryptosite/)
   * データセット：CryptoSiteのグループが独自にデータセットを構築
