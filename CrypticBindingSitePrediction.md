@@ -30,7 +30,7 @@ Machine Learning ディレクトリとの情報の重複があるかも。
   * コードやウェブサーバなど：[コード](https://github.com/salilab/cryptosite/)/[ウェブサーバ](https://modbase.compbio.ucsf.edu/cryptosite/)
   * データセット：CryptoSiteのグループが独自にデータセットを構築
   * 目的変数：
-* DeepSite [[Jimenez+2017]](https://academic.oup.com/bioinformatics/article/33/19/3036/3859178) at Oxford Bioinformatics
+* DeepSite [[Jimenez+2017, Bioinformatics]](https://academic.oup.com/bioinformatics/article/33/19/3036/3859178)
   * [MachineLearning/Protein3DStructureDL.md](https://github.com/keisuke-yanagisawa/knowledge/blob/master/MachineLearning/Protein3DStructureDL.md) に記述済み 
 
 ## その他の手法（MDを使わない手法）
