@@ -20,14 +20,18 @@
 
 ### 3DCNN
 * DeepSite [[Jimenez+2017]](https://academic.oup.com/bioinformatics/article/33/19/3036/3859178)
-  * https://playmolecule.org/deepsite/
+  * Univ. Pompeu Fabra (Barcelona) の Fabritiis グループ
+    * ところでこの人は Acellera というスピンオフ企業も持っている
+  * [PlayMolecule](https://playmolecule.org/) にweb serverが存在、オープンソースではなさそう
   * タンパク質の結合ポケット部位予測
+* LigVoxel [[Skalic+2019]](https://academic.oup.com/bioinformatics/article/35/2/243/5050023)
+  * Univ. Pompeu Fabra (Barcelona) の Fabritiis グループ
+  * [PlayMolecule](https://playmolecule.org/) にweb serverが存在、オープンソースではなさそう
+  * 結合ポケットのPharmacophoreのようなものを描画する
 * DeepDrug3D [[Pu+2019]](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006718)
   * タンパク質の結合ポケットの分類 
 * [[Torng&Altman2018]](https://academic.oup.com/bioinformatics/article/35/9/1503/5104336)
   * タンパク質機能部位予測
-* LigVoxel [[Skalic+2019]](https://academic.oup.com/bioinformatics/article/35/2/243/5050023)
-  * 結合ポケットのPharmacophoreのようなものを描画する
 
 ## タンパク質構造安定性
 
