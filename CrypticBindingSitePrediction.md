@@ -11,6 +11,7 @@ Machine Learning ディレクトリとの情報の重複があるかも。
 
 ## レビュー論文など
 * Cryptic binding sites on proteins: definition, detection, and druggability [[Vajda+2018]](https://doi.org/10.1016/j.cbpa.2018.05.003) at Current Opinion in CHemical Biology
+  * FLFlexのグループの人
   * 半ば [[Beglov+2018]](http://www.pnas.org/lookup/doi/10.1073/pnas.1711490115)の宣伝論文ではあるが、この分野において静的構造からの予測は（汎用手法を除いて）行われていないことが良くわかる資料になっている。
 
 ## MD系手法（予測よりも観測を重視）
@@ -31,3 +32,9 @@ Machine Learning ディレクトリとの情報の重複があるかも。
   * 目的変数：
 * DeepSite [[Jimenez+2017]](https://academic.oup.com/bioinformatics/article/33/19/3036/3859178) at Oxford Bioinformatics
   * [MachineLearning/Protein3DStructureDL.md](https://github.com/keisuke-yanagisawa/knowledge/blob/master/MachineLearning/Protein3DStructureDL.md) に記述済み 
+
+## その他の手法（MDを使わない手法）
+
+* FTFlex [[Grove+2013]](https://academic.oup.com/bioinformatics/article/29/9/1218/217688) at Oxford Bioinformatics
+  * Boston Univ. の [Sandor Vajda](https://structure.bu.edu/) グループ
+  * FTMap [[Brenke+2009]](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btp036) の改良。FTMapでhot spot解析を行い、その周辺のflexibleな残基を特定。その残基をrotamer libraryに基づいて構造変化させる。
