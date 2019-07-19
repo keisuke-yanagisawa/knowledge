@@ -8,7 +8,13 @@
 * gnina [[Ragoza+2017]](https://pubs.acs.org/doi/abs/10.1021%2Facs.jcim.6b00740) [[Hochuli+2018]](https://www.sciencedirect.com/science/article/pii/S1093326318301670) [[Sunseri+2019]](https://link.springer.com/article/10.1007/s10822-018-0133-y)
   * https://github.com/gnina/gnina
 * KDEEP [[Jimenez+2018]](https://pubs.acs.org/doi/10.1021/acs.jcim.7b00650)
+  * Univ. Pompeu Fabra (Barcelona) の [Gianni De Fabritiis](http://www.compscience.org/) グループ
+  * [PlayMolecule](https://playmolecule.org/) にweb serverが存在、オープンソースではなさそう
+  * データセット：CSAR, BindingMOAD, PDBbind
+  * 予測：結合親和性（IC50やKi、Kdの値）の回帰予測
 * Pafnucy(?) [[Stepniewska-Dziubinska+2018]](https://academic.oup.com/bioinformatics/article/34/21/3666/4994792)
+  * オープンソース https://gitlab.com/cheminfIBB/pafnucy
+  * Polish Academy of Science の [Pawel Siedlecki](https://cheminfibb.github.io/) グループ
 
 ### それ以外
 * OnionNet [[Zheng+2019]](https://arxiv.org/abs/1906.02418) at arXiv
