@@ -1,4 +1,4 @@
-Drug Target Interaction (DTI) 関係論文。
+Drug Target Interaction (DTI) 関係論文。タンパク質立体構造がわかっていない場合の手法をこちらに記載しておく。
 
 ## 行列的手法（相互作用行列・タンパク質類似度行列・化合物類似度行列を利用した手法）
 * NRLMFβ [[Ban+2019]](https://doi.org/10.1016/j.bbrep.2019.01.008)
