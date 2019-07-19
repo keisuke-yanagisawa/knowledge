@@ -1,3 +1,4 @@
+タンパク質立体構造を使ったDeep learning手法
 <!--
 * NAME [[AUTHOR YEAR]](ADDRESS) at JOURNAL NAME
   * INSTITUTE NAME の PRINCIPAL INVESTIGATOR グループ
@@ -6,8 +7,6 @@
   * 目的変数：
   * 推しポイント（あれば）
 -->
-タンパク質立体構造を使ったDeep learning手法
-
 ## タンパク質-化合物 結合予測
 
 ### 3DCNN
