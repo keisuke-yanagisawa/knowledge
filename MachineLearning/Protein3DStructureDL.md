@@ -1,3 +1,11 @@
+<!--
+* NAME [[AUTHOR YEAR]](ADDRESS) at JOURNAL NAME
+  * INSTITUTE NAME の PRINCIPAL INVESTIGATOR グループ
+  * コードやウェブサーバなど：存在すればアドレスを記述
+  * データセット：
+  * 目的変数：
+  * 推しポイント（あれば）
+-->
 タンパク質立体構造を使ったDeep learning手法
 
 ## タンパク質-化合物 結合予測
@@ -22,14 +30,6 @@
   * データセット：PDBbind (v.2016), CASF-2013
   * 目的変数：結合親和性（pIC50やpKi、pKdの値）の回帰予測
 
-<!--
-* NAME [[AUTHOR YEAR]](ADDRESS) at JOURNAL NAME
-  * INSTITUTE NAME の PRINCIPAL INVESTIGATOR グループ
-  * コードやウェブサーバなど：存在すればアドレスを記述
-  * データセット：
-  * 目的変数：
-  * 推しポイント（あれば）
--->
 
 ### それ以外
 * OnionNet [[Zheng+2019]](https://arxiv.org/abs/1906.02418) at arXiv
