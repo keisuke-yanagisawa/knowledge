@@ -15,14 +15,3 @@ Drug Target Interaction (DTI) 関係論文。
 * DeepConv-DTI [[Lee+2019]](https://doi.org/10.1371/journal.pcbi.1007129)
   * タンパク質配列を1DCNNで特徴量化、それと化合物のFingerPrintのDense結果と組み合わせて予測を実施
   * 直感的な感想：なんか面白くなさそう（こなみ）
-* [[Gonczarek+2018]](https://www.sciencedirect.com/science/article/pii/S0010482517302974)
-  * [Alphamoon Ltd.](https://alphamoon.ai/) の研究。純粋にDS/AIやってるコンサル企業のようにも見える。
-  * データセット：DUD-E, DUD, PDBBind, MUV
-  * 入力：単一のポケット（タンパク質の一部を切り出したもの）と単一の化合物
-  * 学習手法：Neural FingerprintおGraph Convolutionの2つを試した。
-    * グラフのノードはタンパク質と化合物の各原子（原子種ごと、タンパク質と化合物別のone-hot-vector）
-    * グラフのエッジは一定距離（5A）よりも近い原子ペアに付与。結合だとタンパク質と化合物との間にエッジがはれないから。
-  * 目的変数：入力された単一のポケット（タンパク質の一部を切り出したもの）と単一の小分子が、結合するか否かの分類問題
-  * 結果：Neural Fingerprintを使ったもので予測を行うと、AutoDock VinaやSminaなどのドッキングそのままよりも精度が向上（DUD-E, MUVどちらも）。
-    * いや、機械学習ベースの手法と比較しろよーー
-  
