@@ -35,6 +35,6 @@ Machine Learning ディレクトリとの情報の重複があるかも。
 
 ## その他の手法（MDを使わない手法）
 
-* FTFlex [[Grove+2013]](https://academic.oup.com/bioinformatics/article/29/9/1218/217688) at Oxford Bioinformatics
+* FTFlex [[Grove+2013, Bioinformatics]](https://academic.oup.com/bioinformatics/article/29/9/1218/217688) [[Beglov+2018, PNAS]](http://www.pnas.org/lookup/doi/10.1073/pnas.1711490115)
   * Boston Univ. の [Sandor Vajda](https://structure.bu.edu/) グループ
   * FTMap [[Brenke+2009]](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btp036) の改良。FTMapでhot spot解析を行い、その周辺のflexibleな残基を特定。その残基をrotamer libraryに基づいて構造変化させる。
