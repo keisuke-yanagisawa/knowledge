@@ -10,12 +10,12 @@ Machine Learning ディレクトリとの情報の重複があるかも。
 -->
 
 ## レビュー論文など
-* Cryptic binding sites on proteins: definition, detection, and druggability [[Vajda+2018]](https://doi.org/10.1016/j.cbpa.2018.05.003) at Current Opinion in CHemical Biology
+* Cryptic binding sites on proteins: definition, detection, and druggability [[Vajda+2018, Curr Opin Chem Biol]](https://doi.org/10.1016/j.cbpa.2018.05.003)
   * FLFlexのグループの人
-  * 半ば [[Beglov+2018]](http://www.pnas.org/lookup/doi/10.1073/pnas.1711490115)の宣伝論文ではあるが、この分野において静的構造からの予測は（汎用手法を除いて）行われていないことが良くわかる資料になっている。
+  * 半ば [[Beglov+2018, PNAS]](http://www.pnas.org/lookup/doi/10.1073/pnas.1711490115)の宣伝論文ではあるが、この分野において静的構造からの予測は（汎用手法を除いて）行われていないことが良くわかる資料になっている。
 
 ## MD系手法（予測よりも観測を重視）
-* [[Bowman & Geissler 2012]](https://www.pnas.org/content/109/29/11681) at PNAS
+* [[Bowman & Geissler 2012, PNAS]](https://www.pnas.org/content/109/29/11681)
   * MSMを使ったMD計算（合計数百us）を行うことでCrypticなサイトの構造変化を誘発させる。
   * 3つのタンパク質（beta-lactamase, interleukin-2, RNase）を対象とした実験を行った。
 
@@ -37,4 +37,4 @@ Machine Learning ディレクトリとの情報の重複があるかも。
 
 * FTFlex [[Grove+2013, Bioinformatics]](https://academic.oup.com/bioinformatics/article/29/9/1218/217688) [[Beglov+2018, PNAS]](http://www.pnas.org/lookup/doi/10.1073/pnas.1711490115)
   * Boston Univ. の [Sandor Vajda](https://structure.bu.edu/) グループ
-  * FTMap [[Brenke+2009]](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btp036) の改良。FTMapでhot spot解析を行い、その周辺のflexibleな残基を特定。その残基をrotamer libraryに基づいて構造変化させる。
+  * FTMap [[Brenke+2009, Bioinformatics]](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btp036) の改良。FTMapでhot spot解析を行い、その周辺のflexibleな残基を特定。その残基をrotamer libraryに基づいて構造変化させる。
