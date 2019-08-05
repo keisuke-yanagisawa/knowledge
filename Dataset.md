@@ -16,6 +16,8 @@
   - PDBから結合部位を切り出してまとめた2次データ（PDBbindと何が違うんだろう、ちゃんと理解してないや）
 - [DUD](http://dud.docking.org/), [DUD-E](http://dude.docking.org/)
 - [BioLip](https://zhanglab.ccmb.med.umich.edu/BioLiP/)
+- [MetalPDB](http://metalweb.cerm.unifi.it/)
+  - 金属イオンが結合するタンパク質に関する二次データベース。これは化合物-タンパク質に分類していいのかわからないけれど。
 
 ### 立体構造なし
 - [PubChem](https://pubchem.ncbi.nlm.nih.gov/) BioAssay
