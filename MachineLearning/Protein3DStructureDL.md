@@ -64,7 +64,7 @@
   * 結合ポケットのPharmacophoreのようなものを描画する
 * DeepDrug3D [[Pu+2019]](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006718)
   * タンパク質の結合ポケットの分類 
-* [[Torng&Altman2018]](https://academic.oup.com/bioinformatics/article/35/9/1503/5104336)
+* [[Torng&Altman, Bioinformatics, 2018]](https://academic.oup.com/bioinformatics/article/35/9/1503/5104336)
   * タンパク質機能部位予測
 
 ## タンパク質構造安定性
