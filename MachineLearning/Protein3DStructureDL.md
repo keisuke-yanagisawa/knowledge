@@ -77,4 +77,5 @@
 ## その他のタンパク質立体構造関係
 
 * 3D deep convolutional neural networks foramino acid environment similarity analysis [[Torng&Altman, BMC Bioinform, 2017]](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1702-0)
+  * 入力：Oxygen, Carbon, Nitrogen, Sulfurの4種類（＝4チャネル）の原子の座標を1A^3 voxel表現、範囲は20A - 20A - 20A
 
