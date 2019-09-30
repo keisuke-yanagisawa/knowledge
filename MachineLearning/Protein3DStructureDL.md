@@ -62,8 +62,10 @@
   * Univ. Pompeu Fabra (Barcelona) の Fabritiis グループ
   * [PlayMolecule](https://playmolecule.org/) にweb serverが存在、オープンソースではなさそう
   * 結合ポケットのPharmacophoreのようなものを描画する
-* DeepDrug3D [[Pu+2019]](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006718)
+* DeepDrug3D [[Pu+, PLoS CB, 2019]](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006718)
   * タンパク質の結合ポケットの分類 
+  * 入力特徴はpotentialベース。
+    * リガンド中心から半径15A以内について、1A voxelに空間分割。タンパク質に衝突していない、タンパク質のconvex hullからはみ出していない空間のみを選抜し、最大の接続している点集合だけを残す。その点群に対して、sybylの原子分類で14種類の原子を選別して、DFIRE potentialを計算して特徴量としてCNNに入力する。
 * [[Torng&Altman, Bioinformatics, 2018]](https://academic.oup.com/bioinformatics/article/35/9/1503/5104336)
   * タンパク質機能部位予測
 
@@ -77,5 +79,6 @@
 ## その他のタンパク質立体構造関係
 
 * 3D deep convolutional neural networks foramino acid environment similarity analysis [[Torng&Altman, BMC Bioinform, 2017]](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1702-0)
-  * 入力：Oxygen, Carbon, Nitrogen, Sulfurの4種類（＝4チャネル）の原子の座標を1A^3 voxel表現、範囲は20A - 20A - 20A
+  * 入力は原子座標ベース
+    * Oxygen, Carbon, Nitrogen, Sulfurの4種類（＝4チャネル）の原子の座標を1A^3 voxel表現、範囲は20A - 20A - 20A
 
