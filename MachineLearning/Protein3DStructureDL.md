@@ -72,9 +72,13 @@
 ## タンパク質構造安定性
 
 * 3DCNN_MQA [[Derevyanko+2018]](https://academic.oup.com/bioinformatics/article/34/23/4046/5040325)
-  * タンパク質全体を帯域3DCNN
+  * タンパク質全体を大域3DCNN
 * Ornate [[Pages+2019]](http://dx.doi.org/10.1093/bioinformatics/btz122)
   * 残基単位で局所3DCNN
+* [[Sato&Ishida, PLoS ONE, 2019]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0221347)
+  * 残基単位で局所3DCNN
+  * 入力は原子座標ベース。
+    * Derevyankoの手法の11種類に3種類を追加
   
 ## その他のタンパク質立体構造関係
 
