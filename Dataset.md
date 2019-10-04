@@ -18,6 +18,8 @@
 - [BioLip](https://zhanglab.ccmb.med.umich.edu/BioLiP/)
 - [MetalPDB](http://metalweb.cerm.unifi.it/)
   - 金属イオンが結合するタンパク質に関する二次データベース。これは化合物-タンパク質に分類していいのかわからないけれど。
+- [AH-DB](https://ahdb.ee.ncku.edu.tw/)
+  - APO体とHOLO体のペアをまとめたデータベース。[[論文]](https://doi.org/10.1093/nar/gkr940)
 
 ### 立体構造なし
 - [PubChem](https://pubchem.ncbi.nlm.nih.gov/) BioAssay
