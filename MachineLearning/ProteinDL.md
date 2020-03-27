@@ -17,8 +17,21 @@
   * Residual Inception Networkというものを構築。異なる深さのConvolution層を組み合わせたネットワーク構成。複雑だ。
   * 入力特徴量はアミノ酸の物理的特徴量、PSSM、HHBlitsの出力、あと予測した8分類二次構造。
   * タンパク質主鎖のPhi, Psi角度を予測。正確にはsin(phi), sin(psi), cos(phi), cos(psi)の4つの値を予測する。SPIDER3よりも精度良いらしい。
+* Brewery [[Torrisi+2020]](https://doi.org/10.1093/bioinformatics/btaa204)
+  * 雑誌：Bioinformatics
+  * https://github.com/mircare/Brewery これがGithub
+  * Input: あんまり詳細載ってないけど、PSI-BLASTあるいはHHblitsの出力を使うようだ。
+  * Output: タンパク質配列から以下の4種類を予測
+    * 二次構造 (secondary structure; SS)
+    * 相対溶媒接触面積 (relative solvent accessibility; RSA)
+    * contact density (CD)
+    * Structural motifs obtained from clustering of consecutive torsion angles (TA)
   
-  
+| ツール名 | Input ||| Output ||||
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|       |<strong>Sequence</strong>|<strong>HHblits</strong>|<strong>PSI-BLAST</strong>| <strong>PSA</strong> | <strong>Secondary structure (SS)</strong> | <strong>Contact density (CD)</strong> | <strong>Torsion angle (TA)</strong> |
+|Brewery|One-hot?|✓|✓|✓|✓|✓|✓|
+
 <!--
 * [[]]()
   * 雑誌名：
