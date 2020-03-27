@@ -27,10 +27,10 @@
     * contact density (CD)
     * Structural motifs obtained from clustering of consecutive torsion angles (TA)
   
-| ツール名 | Input ||| Output ||||
-| --- | --- | --- | --- | --- | --- | --- | --- |
-|       |<strong>Sequence</strong>|<strong>HHblits</strong>|<strong>PSI-BLAST</strong>| <strong>PSA</strong> | <strong>Secondary structure (SS)</strong> | <strong>Contact density (CD)</strong> | <strong>Torsion angle (TA)</strong> |
-|Brewery|One-hot?|✓|✓|✓|✓|✓|✓|
+| ツール名 | Input ||| Output ||||Github|
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|       |<strong>Sequence</strong>|<strong>HHblits</strong>|<strong>PSI-BLAST</strong>| <strong>PSA</strong> | <strong>Secondary structure (SS)</strong> | <strong>Contact density (CD)</strong> | <strong>Torsion angle (TA)</strong> ||
+|Brewery|One-hot?|✓|✓|✓|✓|✓|✓|https://github.com/mircare/Brewery|
 
 <!--
 * [[]]()
