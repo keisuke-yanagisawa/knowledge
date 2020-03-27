@@ -1,0 +1,3 @@
+- Protein-ligand
+    -  ProtoCaller: Robust Automation of Binding Free Energy Calculations
+        -  入力された複数のタンパク質-リガンド構造のΔΔGを計算するPythonライブラリ。GROMACSなどを実行してくれるらしい。
