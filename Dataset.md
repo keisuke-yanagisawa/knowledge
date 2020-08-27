@@ -20,6 +20,9 @@
   - 金属イオンが結合するタンパク質に関する二次データベース。これは化合物-タンパク質に分類していいのかわからないけれど。
 - [AH-DB](https://ahdb.ee.ncku.edu.tw/)
   - APO体とHOLO体のペアをまとめたデータベース。[[論文]](https://doi.org/10.1093/nar/gkr940)
+- Kinase SARfari
+- [DrugKiNET](http://www.drugkinet.ca/)
+  - PubChem, Kinase SARfariなどで公開されているデータをまとめて、最良のIC50, Ki, Kdをまとめたデータセット。
 
 ### 立体構造なし
 - [PubChem](https://pubchem.ncbi.nlm.nih.gov/) BioAssay
