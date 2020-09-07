@@ -26,7 +26,13 @@
     * 相対溶媒接触面積 (relative solvent accessibility; RSA)
     * contact density (CD)
     * Structural motifs obtained from clustering of consecutive torsion angles (TA)
-  
+* DELPHI [[Li+2020]](https://doi.org/10.1093/bioinformatics/btaa750)
+  * 雑誌：Bioinformatics
+  * https://github.com/lucian-ilie/DELPHI
+  * Input: 3-merやPSI-BLAST PSSM, RSA, propensityなどを利用するらしい。Table 2参照
+  * Model: Deep learning (CNN & RNN)
+  * Output: タンパク質の相互作用部位予測
+
 | ツール名 | Input ||| Output ||||Github|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |       |<strong>Sequence</strong>|<strong>HHblits</strong>|<strong>PSI-BLAST</strong>| <strong>PSA</strong> | <strong>Secondary structure (SS)</strong> | <strong>Contact density (CD)</strong> | <strong>Torsion angle (TA)</strong> ||
